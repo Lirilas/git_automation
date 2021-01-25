@@ -15,7 +15,8 @@ import static com.codeborne.selenide.Selenide.*;
 
 public class Silenid {
 
-
+    LoginPage loginpage = new LoginPage();
+    MainPage main = new MainPage();
 
     @BeforeClass // Выполнится перед тестом
     public static void setUp() {  // Статический класс
@@ -27,16 +28,12 @@ public class Silenid {
           }
 
     @Test
-    public void user_login(){
+    public void Test(){
 
-        ProfilePage loginpage = new ProfilePage();
-        Inf_System Properties_info = new Inf_System();
-        Search search_nav = new Search();
         loginpage.open_page_user("http://eb-arp-dev-ufos.otr.ru:8889/sufdclient/index.zul");
         loginpage.login("MOU","Qwerty1234");
-        sleep(3000);
-        Properties_info.info("О У. М");
-        search_nav.search_user("Отчетные");
+        main.info("О У. М");
+        main.search_user("Отчетные периоды");
 
         sleep(2000);
 

@@ -1,10 +1,14 @@
-# Intellij
-.idea/
-*.iml
-*.iws
+       # Default ignored files
+       /shelf/
+       /workspace.xml
 
-# Maven
-log/
-target/
+       # Intellij
+       .idea/
+       *.iml
+       *.iws
 
-/build/
+       # Maven
+       log/
+       target/
+
+       /build/

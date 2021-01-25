@@ -13,7 +13,7 @@ import static com.codeborne.selenide.Selenide.*;
 
 
 
-public class Silenid { 
+public class Silenid {
 
 
 
@@ -34,7 +34,7 @@ public class Silenid {
         Search search_nav = new Search();
         loginpage.open_page_user("http://eb-arp-dev-ufos.otr.ru:8889/sufdclient/index.zul");
         loginpage.login("MOU","Qwerty1234");
-        Properties_info.info("О У. М");
+        Properties_info.info("О У. М"); // <kf ,fkf
         search_nav.search_user("Отчетные периоды");
 
         sleep(2000);

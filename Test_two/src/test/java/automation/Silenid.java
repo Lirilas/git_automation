@@ -21,7 +21,7 @@ public class Silenid {
     public static void setUp() {  // Статический класс
 
         Configuration.browser = "firefox";
-        Configuration.timeout = 6000;
+        Configuration.timeout = 10000;
         Configuration.startMaximized = true;
 
           }
@@ -34,8 +34,9 @@ public class Silenid {
         Search search_nav = new Search();
         loginpage.open_page_user("http://eb-arp-dev-ufos.otr.ru:8889/sufdclient/index.zul");
         loginpage.login("MOU","Qwerty1234");
-        Properties_info.info("О У. М"); // <kf ,fkf
-        search_nav.search_user("Отчетные периоды");
+        sleep(3000);
+        Properties_info.info("О У. М");
+        search_nav.search_user("Отчетные");
 
         sleep(2000);
 

@@ -1,0 +1,171 @@
+[1611152092.825][INFO]: Starting ChromeDriver 88.0.4324.27 (6347fe8bf1e48bd0c54d07dc55ca011cf40861c9-refs/branch-heads/4324@{#450}) on port 4027
+[1611152092.825][INFO]: Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+[1611152093.462][INFO]: [c22f3dc7ea7f3774e6f99f08626d9105] COMMAND InitSession {
+   "capabilities": {
+      "firstMatch": [ {
+         "acceptInsecureCerts": true,
+         "browserName": "chrome",
+         "goog:chromeOptions": {
+            "args": [ "--proxy-bypass-list=\u003C-loopback>" ],
+            "excludeSwitches": [ "enable-automation", "load-extension" ],
+            "extensions": [  ],
+            "prefs": {
+               "credentials_enable_service": false,
+               "download.default_directory": "C:\\Users\\kaverina.marina\\IdeaProjects\\Test_two\\build\\downloads",
+               "plugins.always_open_pdf_externally": true
+            }
+         },
+         "pageLoadStrategy": "normal"
+      } ]
+   },
+   "desiredCapabilities": {
+      "acceptInsecureCerts": true,
+      "acceptSslCerts": true,
+      "browserName": "chrome",
+      "goog:chromeOptions": {
+         "args": [ "--proxy-bypass-list=\u003C-loopback>" ],
+         "excludeSwitches": [ "enable-automation", "load-extension" ],
+         "extensions": [  ],
+         "prefs": {
+            "credentials_enable_service": false,
+            "download.default_directory": "C:\\Users\\kaverina.marina\\IdeaProjects\\Test_two\\build\\downloads",
+            "plugins.always_open_pdf_externally": true
+         }
+      },
+      "handlesAlerts": true,
+      "javascriptEnabled": true,
+      "pageLoadStrategy": "normal",
+      "takesScreenshot": true
+   }
+}
+[1611152093.464][INFO]: Populating Preferences file: {
+   "alternate_error_pages": {
+      "enabled": false
+   },
+   "autofill": {
+      "enabled": false
+   },
+   "browser": {
+      "check_default_browser": false
+   },
+   "credentials_enable_service": false,
+   "distribution": {
+      "import_bookmarks": false,
+      "import_history": false,
+      "import_search_engine": false,
+      "make_chrome_default_for_user": false,
+      "skip_first_run_ui": true
+   },
+   "dns_prefetching": {
+      "enabled": false
+   },
+   "download": {
+      "default_directory": "C:\\Users\\kaverina.marina\\IdeaProjects\\Test_two\\build\\downloads"
+   },
+   "plugins": {
+      "always_open_pdf_externally": true
+   },
+   "profile": {
+      "content_settings": {
+         "pattern_pairs": {
+            "https://*,*": {
+               "media-stream": {
+                  "audio": "Default",
+                  "video": "Default"
+               }
+            }
+         }
+      },
+      "default_content_setting_values": {
+         "geolocation": 1
+      },
+      "default_content_settings": {
+         "geolocation": 1,
+         "mouselock": 1,
+         "notifications": 1,
+         "popups": 1,
+         "ppapi-broker": 1
+      },
+      "password_manager_enabled": false
+   },
+   "safebrowsing": {
+      "enabled": false
+   },
+   "search": {
+      "suggest_enabled": false
+   },
+   "translate": {
+      "enabled": false
+   }
+}
+[1611152093.465][INFO]: Populating Local State file: {
+   "background_mode": {
+      "enabled": false
+   },
+   "ssl": {
+      "rev_checking": {
+         "enabled": false
+      }
+   }
+}
+[1611152093.467][INFO]: Launching chrome: "C:\Program Files\Google\Chrome\Application\chrome.exe" --disable-background-networking --disable-client-side-phishing-detection --disable-default-apps --disable-hang-monitor --disable-popup-blocking --disable-prompt-on-repost --disable-sync --enable-blink-features=ShadowDOMV0 --enable-logging --ignore-certificate-errors --log-level=0 --no-first-run --no-service-autorun --password-store=basic --proxy-bypass-list=<-loopback> --remote-debugging-port=0 --test-type=webdriver --use-mock-keychain --user-data-dir="C:\Users\KAVERI~1.MAR\AppData\Local\Temp\scoped_dir34104_439823095" data:,
+[1611152094.769][INFO]: resolved localhost to ["::1","127.0.0.1"]
+[1611152094.778][INFO]: resolved localhost to ["::1","127.0.0.1"]
+[1611152094.866][INFO]: [c22f3dc7ea7f3774e6f99f08626d9105] RESPONSE InitSession {
+   "capabilities": {
+      "acceptInsecureCerts": true,
+      "browserName": "chrome",
+      "browserVersion": "88.0.4324.96",
+      "chrome": {
+         "chromedriverVersion": "88.0.4324.27 (6347fe8bf1e48bd0c54d07dc55ca011cf40861c9-refs/branch-heads/4324@{#450})",
+         "userDataDir": "C:\\Users\\KAVERI~1.MAR\\AppData\\Local\\Temp\\scoped_dir34104_439823095"
+      },
+      "goog:chromeOptions": {
+         "debuggerAddress": "localhost:60912"
+      },
+      "networkConnectionEnabled": false,
+      "pageLoadStrategy": "normal",
+      "platformName": "windows",
+      "proxy": {
+
+      },
+      "setWindowRect": true,
+      "strictFileInteractability": false,
+      "timeouts": {
+         "implicit": 0,
+         "pageLoad": 300000,
+         "script": 30000
+      },
+      "unhandledPromptBehavior": "dismiss and notify",
+      "webauthn:extension:largeBlob": true,
+      "webauthn:virtualAuthenticators": true
+   },
+   "sessionId": "c22f3dc7ea7f3774e6f99f08626d9105"
+}
+[1611152094.935][INFO]: [c22f3dc7ea7f3774e6f99f08626d9105] COMMAND MaximizeWindow {
+
+}
+[1611152094.936][INFO]: Waiting for pending navigations...
+[1611152094.937][INFO]: Done waiting for pending navigations. Status: ok
+[1611152095.065][INFO]: Waiting for pending navigations...
+[1611152095.066][INFO]: Done waiting for pending navigations. Status: ok
+[1611152095.066][INFO]: [c22f3dc7ea7f3774e6f99f08626d9105] RESPONSE MaximizeWindow {
+   "height": 1056,
+   "width": 1936,
+   "x": -8,
+   "y": -8
+}
+[1611152095.079][INFO]: [c22f3dc7ea7f3774e6f99f08626d9105] COMMAND Navigate {
+   "url": "http://eb-tse-demo-ufos.otr.ru:8889/sufdclient/index.zul"
+}
+[1611152095.079][INFO]: Waiting for pending navigations...
+[1611152095.081][INFO]: Done waiting for pending navigations. Status: ok
+[1611152099.432][INFO]: Waiting for pending navigations...
+[1611152099.432][INFO]: Done waiting for pending navigations. Status: disconnected: not connected to DevTools
+[1611152099.432][INFO]: [c22f3dc7ea7f3774e6f99f08626d9105] RESPONSE Navigate ERROR unknown error: cannot determine loading status
+from disconnected: received Inspector.detached event
+  (Session info: chrome=88.0.4324.96)
+[1611152099.506][INFO]: [c22f3dc7ea7f3774e6f99f08626d9105] COMMAND Quit {
+
+}
+[1611152099.636][INFO]: [c22f3dc7ea7f3774e6f99f08626d9105] RESPONSE Quit

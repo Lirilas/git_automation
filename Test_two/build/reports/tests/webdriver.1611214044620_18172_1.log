@@ -1,0 +1,13 @@
+1611214044895	geckodriver	INFO	Listening on 127.0.0.1:38329
+1611214045837	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\KAVERI~1.MAR\\AppData\\Local\\Temp\\rust_mozprofileF8VgUb"
+Can't find symbol 'eglSwapBuffersWithDamageEXT'.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1611214051130	Marionette	INFO	Listening on port 51677
+1611214051603	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: resource://gre/modules/URIFixup.jsm, line 271: NS_ERROR_FAILURE: Should pass a non-null uri
+JavaScript warning: http://eb-arp-itest-ufos.otr.ru:8889/sufdclient/libraries-js.dsp;jsessionid=6SCzgJsJW1d4wKhXvVNTs82Lls1nxL7pWL9JWS1tRpY9q79XWPpc!36419911, line 4: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+1611214054337	Marionette	INFO	Stopped listening on port 51677
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+

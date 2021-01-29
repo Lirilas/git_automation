@@ -64,28 +64,28 @@ public class MainPage {
         try {
 
 
-            $x("//img[contains(@class,\"filterToggler z-image\")]")
+            $x("//img[contains(@class,\"filterToggler z-image\")]") // Нажать на кнопку открытия фильтра
                     .waitUntil(Condition.visible, wait, waitInterval)
                     .click();
 
-            $x("//input[contains(@filter-for,\"BRE_POTYPE\")]")
+            $x("//input[contains(@filter-for,\"BRE_POTYPE\")]") // Ввести значение в поле фильтра и отсортировать
                     .waitUntil(Condition.visible, wait, waitInterval)
                     .setValue(filter)
                     .pressEnter();
 
             $x("//div[contains(@class,\"z-listboxfakepaging-body z-word-nowrap\")]//tr[1]//span[contains(@class,\"z-listitem-checkable z-listitem-checkbox\")]")
-                    .waitUntil(Condition.visible, wait, waitInterval)
+                    .waitUntil(Condition.visible, wait, waitInterval) // Выбрать первый элемент из отсортированных значений
                     .click();
 
 
             for (int i = 0; i < 3; i++) {
-                $x("//button[contains(@title,\"Печать документа\")]")
+                $x("//button[contains(@title,\"Печать документа\")]") // Нажать на кнопку печать документа
                         .waitUntil(Condition.visible, wait, waitInterval)
                         .click();
 
                 if (i > 0) {
 
-                    $x("//span[contains(text(),\"Документ " + array[i] + "\")]")
+                    $x("//span[contains(text(),\"Документ " + array[i] + "\")]") //  Выбрать нужный формат
                             .waitUntil(Condition.visible, wait, waitInterval)
                             .click();
                 }
@@ -95,11 +95,11 @@ public class MainPage {
 
 
             }
-            sleep(2000); //Чтобы фалы все скачались
+            sleep(2000); //Чтобы файлы все скачались
 
         } finally {
 
-            $x("//button[contains(@class,\"filter-button filter-plank-cancel-button z-button\")]")
+            $x("//button[contains(@class,\"filter-button filter-plank-cancel-button z-button\")]") // Сброс фильтра
                     .waitUntil(Condition.visible, wait, waitInterval)
                     .click();
 

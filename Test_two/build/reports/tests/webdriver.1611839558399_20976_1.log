@@ -1,0 +1,14 @@
+1611839561242	geckodriver	INFO	Listening on 127.0.0.1:15123
+1611839590652	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\KAVERI~1.MAR\\AppData\\Local\\Temp\\rust_mozprofiledTceG2"
+JavaScript error: resource://pdf.js/PdfJs.jsm, line 209: TypeError: Services.prefs.clearIntPref is not a function
+1611839595397	Marionette	INFO	Listening on port 49646
+1611839595622	Marionette	WARN	TLS certificate errors will be ignored for this session
+1611839595644	Marionette	ERROR	[17] No reply from Marionette:Register
+JavaScript warning: http://eb-exp-test-ufos.otr.ru:8889/sufdclient/libraries-js.dsp;jsessionid=lcVJIGaSoaaqYkDqsxu3K-XZDrbQoqp1aR_J7YJmnWQQhkL4ahRh!2009056922, line 4: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+_create_dc_and_bitmap: Операция успешно завершена.
+_create_dc_and_bitmap: Неверный дескриптор.
+JavaScript warning: http://eb-exp-test-ufos.otr.ru:8889/sufdclient/versioned/1.9.3/libraries-js.dsp, line 4: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+_create_dc_and_bitmap: Операция успешно завершена.
+1611839625755	Marionette	ERROR	[46] No reply from Marionette:Register
+1611839715634	Marionette	INFO	Stopped listening on port 49646
+[Parent 8544, IPC I/O Parent] WARNING: file /builds/worker/checkouts/gecko/ipc/chromium/src/base/process_util_win.cc:167

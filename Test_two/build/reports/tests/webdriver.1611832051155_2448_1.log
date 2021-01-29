@@ -1,0 +1,11 @@
+1611832051433	geckodriver	INFO	Listening on 127.0.0.1:33907
+1611832052178	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\KAVERI~1.MAR\\AppData\\Local\\Temp\\rust_mozprofile7y6YBm"
+Can't find symbol 'eglSwapBuffersWithDamageEXT'.
+Can't find symbol 'eglSetDamageRegionKHR'.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1611832054845	Marionette	INFO	Listening on port 58233
+1611832055325	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: http://eb-exp-test-ufos.otr.ru:8889/sufdclient/libraries-js.dsp;jsessionid=FJhIrVgNhDPfeF22_DKp2Ro7gbCt23A-7visUMUc86b5dAX4BTp9!2009056922, line 4: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'MarionetteEvents'
+JavaScript warning: http://eb-exp-test-ufos.otr.ru:8889/sufdclient/versioned/1.9.3/libraries-js.dsp, line 4: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead

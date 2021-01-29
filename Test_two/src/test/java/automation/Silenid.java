@@ -22,7 +22,7 @@ public class Silenid {
     public static void setUp() {  // Статический класс
 
         Configuration.browser = "firefox";
-        Configuration.timeout = 10000;
+        Configuration.timeout = 2000;
         Configuration.startMaximized = true;
 
           }

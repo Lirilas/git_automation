@@ -1,0 +1,14 @@
+1611838736032	geckodriver	INFO	Listening on 127.0.0.1:2850
+1611838736636	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\KAVERI~1.MAR\\AppData\\Local\\Temp\\rust_mozprofileUE0Z6V"
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1611838740063	Marionette	INFO	Listening on port 65218
+1611838740295	Marionette	WARN	TLS certificate errors will be ignored for this session
+1611838740309	Marionette	ERROR	[21] No reply from Marionette:Register
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+JavaScript warning: http://eb-exp-test-ufos.otr.ru:8889/sufdclient/libraries-js.dsp;jsessionid=ePpJE1lIlzUZXV3oJgqSFFpKihEn8rYhg3q85TJObHnUqMyHMEgY!2009056922, line 4: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'MarionetteEvents'
+1611838748629	Marionette	INFO	Stopped listening on port 65218
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+

@@ -11,7 +11,7 @@ import org.testng.Assert;
 
 
 public class MainPage {
-    long wait=100000;
+    long wait=90000;
     long waitInterval=50;
     public void info(String text) {
 
@@ -19,6 +19,7 @@ public class MainPage {
 
         $x("//div[contains(@id,\"z59_Menubar\")]")
                 .waitUntil(Condition.visible,wait,waitInterval).click();
+
         $x("//li[contains(@id,\"z67_Menuitem\")]")
                 .waitUntil(Condition.visible,wait,waitInterval).click();
 
@@ -37,8 +38,28 @@ public class MainPage {
     }
     public void search_user(String text) {
 
-        $(byXpath("//input[contains(@title,'Для навигации по результатам поиска используйте стрелки')]")).val(text).pressEnter();
+        $x("//input[contains(@title,'Для навигации по результатам поиска используйте стрелки')]")
+                .waitUntil(Condition.visible,wait,waitInterval)
+                .val(text)
+                .pressEnter();
 
+        for(int Kod_perioda=2014;Kod_perioda<=2021;Kod_perioda++) {
+
+            $x("//input[contains(@filter-for,\"PERIOD_NAME\")]")
+                    .val(String.valueOf(Kod_perioda))
+                    .pressEnter();
+
+            try{
+                $x("//td[contains(@title,\"20\")]")
+                        .waitUntil(Condition.visible,wait,waitInterval)
+                        .shouldHave(text(String.valueOf(Kod_perioda)));
+
+            }catch (AssertionError e) {
+                System.out.println("Отсутствует отчетный период");
+            }
+
+
+        }
 
     }
 }

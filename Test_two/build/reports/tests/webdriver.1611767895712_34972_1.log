@@ -1,8 +1,0 @@
-1611767896093	geckodriver	INFO	Listening on 127.0.0.1:14096
-1611767896932	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\KAVERI~1.MAR\\AppData\\Local\\Temp\\rust_mozprofileAvVg0q"
-Can't find symbol 'eglSwapBuffersWithDamageEXT'.
-JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
-JavaScript error: chrome://browser/content/browser-places.js, line 1754: TypeError: PageActions.actionForID(...) is undefined
-
-###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
-

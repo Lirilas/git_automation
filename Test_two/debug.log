@@ -1,0 +1,14 @@
+[0811/183342.180:ERROR:prune_crash_reports.cc(36)] PruneCrashReportDatabase: Failed to get pending reports
+[0812/012410.166:ERROR:file_io_win.cc(162)] CreateFile C:\Users\KAVERI~1.MAR\AppData\Local\Temp\scoped_dir12476_1265198717\Crashpad\settings.dat: Системе не удается найти указанный путь. (0x3)
+[0812/012410.171:ERROR:file_io_win.cc(171)] CreateFile C:\Users\KAVERI~1.MAR\AppData\Local\Temp\scoped_dir12476_1265198717\Crashpad\reports\7cf02d04-08f2-4e5a-95ff-afb298976f68.dmp: Системе не удается найти указанный путь. (0x3)
+[0812/012410.171:ERROR:crash_report_exception_handler.cc(97)] PrepareNewCrashReport failed
+[0812/094112.758:ERROR:prune_crash_reports.cc(36)] PruneCrashReportDatabase: Failed to get pending reports
+[0812/094246.607:ERROR:prune_crash_reports.cc(36)] PruneCrashReportDatabase: Failed to get pending reports
+[0812/105002.043:ERROR:prune_crash_reports.cc(36)] PruneCrashReportDatabase: Failed to get pending reports
+[0812/110602.030:ERROR:prune_crash_reports.cc(36)] PruneCrashReportDatabase: Failed to get pending reports
+[0812/112235.253:ERROR:file_io_win.cc(162)] CreateFile C:\Users\KAVERI~1.MAR\AppData\Local\Temp\scoped_dir6968_2078615040\Crashpad\settings.dat: Системе не удается найти указанный путь. (0x3)
+[0812/112235.257:ERROR:file_io_win.cc(171)] CreateFile C:\Users\KAVERI~1.MAR\AppData\Local\Temp\scoped_dir6968_2078615040\Crashpad\reports\cde2c3c7-b07f-4927-a130-4939fde3e1d1.dmp: Системе не удается найти указанный путь. (0x3)
+[0812/112235.257:ERROR:crash_report_exception_handler.cc(97)] PrepareNewCrashReport failed
+[0812/113235.846:ERROR:file_io_win.cc(162)] CreateFile C:\Users\KAVERI~1.MAR\AppData\Local\Temp\scoped_dir3508_2141489934\Crashpad\settings.dat: Системе не удается найти указанный путь. (0x3)
+[0812/113235.851:ERROR:file_io_win.cc(171)] CreateFile C:\Users\KAVERI~1.MAR\AppData\Local\Temp\scoped_dir3508_2141489934\Crashpad\reports\e9144cc7-99ae-4087-b4ec-1178601d6a41.dmp: Системе не удается найти указанный путь. (0x3)
+[0812/113235.851:ERROR:crash_report_exception_handler.cc(97)] PrepareNewCrashReport failed
